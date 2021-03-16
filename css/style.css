@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    background-color: #3f8f8d;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.fieldset{
+    border: 1px dotted ;
+    border-radius: 5%;
+    width: 30%;
+    padding-right: 45px;
+}
+
+.div1{
+    margin-left: 45px;
+    padding-left: 45px;
+    float: left;
+    margin-right: 45px;
+}
+.legend{
+    margin-bottom: 20px;
+}
+form label{
+    margin-left: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+form input{
+    margin-left: 29px;
+    width: 180px;
+
+}
+form select{
+    margin-left: 29px;
+    width: 180px;
+}
+form button{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: large;
+    background-color: #609c4d;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+th{
+    /* border: 2px solid; */
+    padding-right: 40px;
+    font-weight: bolder;
+    background: #ffc0d0;
+
+}
+td{
+    padding-right: 20px;
+
+}
+table:nth-child(odd) {
+    background: #f6b8d1;
+  }
+
+table:nth-child(even) {
+    background:  #ffd3de;
+  }
+
+ .footer{
+      background-color: #5dc0a6;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      color: white;
+      text-align: center;
+      font-size: 35px;
+      font-family: 'Roboto', sans-serif;
+      width: 100%;
+      margin-left: 140px;
+   }
+   #names{
+       text-transform: lowercase;
+   }
+
+  
+
+
+
+
